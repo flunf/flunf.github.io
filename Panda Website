@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pandas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h1>Pandas</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Facts</a></li>
+				<li><a href="#">Conservation</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="content">
+		<h2>Welcome to the World of Pandas!</h2>
+		<p>Pandas are one of the most beloved animals in the world. With their distinctive black and white fur, playful nature, and gentle disposition, they have captured the hearts of people everywhere. But pandas are also an endangered species, with only a few thousand left in the wild. This website is dedicated to raising awareness about pandas and their conservation, as well as sharing fun facts and information about these amazing creatures.</p>
+	</div>
+
+	<div id="image">
+		<img src="panda.jpg" alt="Panda">
+	</div>
+
+	<div id="footer">
+		<p>Copyright &copy; 2023 Panda World</p>
+	</div>
+
+</body>
+</html>
+/* Reset the default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Style the header */
+#header {
+	background-color: #f2f2f2;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#header h1 {
+	padding: 10px;
+	float: left;
+}
+
+#header nav {
+	float: right;
+	padding: 20px 10px;
+}
+
+#header ul {
+	list-style: none;
+}
+
+#header li {
+	float: left;
+	margin-right: 20px;
+}
+
+#header li a {
+	color: #333;
+	text-decoration: none;
+}
+
+#header li a:hover {
+	color: #f00;
+}
+
+/* Style the content section */
+#content {
+	background-color: #fff;
+	padding: 50px;
+	margin-top: 60px;
+}
+
+#content h2 {
+	margin-bottom: 20px;
+}
+
+#content p {
+	line-height: 1.5;
+}
+
+/* Style the image section */
+#image {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+/* Style the footer */
+#footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
